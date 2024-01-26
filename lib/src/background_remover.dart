@@ -6,9 +6,9 @@ import 'package:flutter/rendering.dart';
 import 'package:google_mlkit_selfie_segmentation/google_mlkit_selfie_segmentation.dart';
 import 'package:image/image.dart' as img;
 
-class BackgroundRemover {
+class FlutterBackgroundRemover {
   // Private constructor to prevent instantiation of the class
-  BackgroundRemover._();
+  FlutterBackgroundRemover._();
 
   // Apple Vision Selfie controller for macOS
   static final AppleVisionSelfieController visionController =

@@ -15,18 +15,18 @@ Add the following to your `pubspec.yaml` file:
 
 ```
 dependencies:
-  backgroundremover: ^0.0.1
+  flutterbackgroundremover: ^0.0.1
 ```
 
 ## Usage
 ```
-import 'package:background_remover/background_remover.dart';
+import 'package:flutterbackgroundremover/flutterbackgroundremover.dart';
 
 // Example usage
 final File imageFile = ...; // Provide your image file
 
 try {
-  final Uint8List result = await BackgroundRemover.removeBackground(imageFile);
+  final Uint8List result = await FlutterBackgroundRemover.removeBackground(imageFile);
   // Use the result as needed, e.g., display it in your Flutter app
 } catch (e) {
   print("Error: $e");
