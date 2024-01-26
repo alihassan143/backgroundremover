@@ -1,5 +1,5 @@
 name: backgroundremover
-description: "A new Flutter package project."
+description: "Effortlessly remove backgrounds from images in your Flutter app with Background Remover. This cross-platform Flutter package leverages Apple Vision Selfie on macOS and Google ML Kit Selfie Segmentation on Android and iOS to deliver efficient background removal. The package provides a simple API for developers, making it easy to integrate this powerful feature into your applications."
 version: 0.0.1
 homepage: "https://github.com/alihassan143/backgroundremover.git"
 platforms:
